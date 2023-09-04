@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/hs_chatbubbleMarginWidth" android:paddingTop="4.0dip" android:paddingRight="@dimen/hs_chatbubbleMarginWidth" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" android:layout_alignBottom="@id/textlayout" android:layout_alignParentRight="true" style="@style/hs_rightChatBubbleTriangleStyle" />
+    <RelativeLayout android:id="@id/textlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" style="@style/hs_rightChatBubbleStyle">
+        <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentLeft="true" style="@style/hs_right_messageTextStyle" />
+        <TextView android:textStyle="italic" android:id="@id/textView_no_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Message" android:layout_alignParentLeft="true" style="@style/hs_left_messageTextStyle" />
+    </RelativeLayout>
+    <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_below="@id/textlayout" android:layout_alignLeft="@id/textlayout" style="@style/hs_smallTextStyle" />
+</RelativeLayout>

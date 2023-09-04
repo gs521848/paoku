@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="hs_action_accept">@drawable/hs_accept_light</item>
+    <item type="drawable" name="hs_action_forward">@drawable/hs_forward_light</item>
+    <item type="drawable" name="hs_disclosure_next">@drawable/hs_disclosure</item>
+    <item type="drawable" name="hs_search_icon">@drawable/hs_search_light</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>

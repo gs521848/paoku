@@ -1,0 +1,53 @@
+{
+    "interstitial":{
+        "sw":1280,
+        "sh":720,
+        "bannerFrame":"0, 660,1280, 60",
+        "banner": {
+            "bg": "bannerBg.png",
+            "paddingLeft": 30,
+            "paddingRight":0,
+            "paddingUp": 2.5,
+            "iconSpace": 20,
+            "iconFrameWidth":210,
+            "iconFrameHeight":210,
+            "iconSelectAnimation":1,
+            "icon": {
+                "bg": "bannerIconFrame.png",
+                "selectBg": "bannerIconSelect.png",
+                "iconWidth": 137,
+                "iconHeight": 137,
+                "cornerRadius":8,
+                "offsetX": 12,
+                "offsetY": 12
+            }
+        }
+    },
+    "banner": {
+        "bg": "bannerBg.png",
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingUp": 17,
+        "iconSpace": 20,
+        "iconFrameWidth":163,
+        "iconFrameHeight":163,
+        "iconSelectAnimation":1,
+        "icon": {
+            "bg": "bannerIconFrame.png",
+            "selectBg": "bannerIconSelect.png",
+            "iconWidth": 150,
+            "iconHeight": 150,
+            "cornerRadius":20,
+            "offsetX": 5,
+            "offsetY": 2
+        }
+    },
+    "icon": {
+        "bg": "bannerIcon.png",
+        "iconWidth": 145,
+        "iconHeight": 145,
+        "cornerRadius":8,
+        "offsetX": 8,
+        "offsetY": 8
+    }
+}

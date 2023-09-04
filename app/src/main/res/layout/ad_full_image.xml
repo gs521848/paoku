@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/fullimage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/adLabel" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="-10.0dip" android:src="@drawable/ad_label_bottom" android:contentDescription="" />
+    <ImageView android:layout_gravity="end|center|top" android:tag="closebtn" android:background="@drawable/interstitial_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_margin="16.0dip" android:contentDescription="@null" />
+</FrameLayout>

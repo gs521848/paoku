@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:background="#ff22426c" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:tag="closebtn" android:background="@drawable/android_sdk_btn_close" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#fff6fefb" android:gravity="center" android:id="@id/offerwall_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:text="@string/risesdk_gameactivity_title" android:layout_marginStart="40.0dip" />
+    </FrameLayout>
+    <ListView android:tag="listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" />
+</LinearLayout>

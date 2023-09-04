@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#aa000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/newsWebViewPlaceholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/closeNewsHtml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/picker_buttons_margin_padding" android:src="@drawable/close_news" android:layout_alignRight="@id/newsWebViewPlaceholder" />
+</RelativeLayout>

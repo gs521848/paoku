@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffffffff" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/haha" android:tag="ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside">
+            <ImageView android:id="@id/ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ad_banner_placeholder" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/adLabel" android:tag="ad_choices" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ad_label" android:contentDescription="" />
+        </FrameLayout>
+        <ImageView android:background="#ff3b5998" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:gravity="center" android:tag="ad_choices" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip">
+            <ImageView android:id="@id/ad_choices" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <ImageView android:id="@id/ad_icon" android:tag="ad_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ad_icon_placeholder" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="5.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#ff425f78" android:ellipsize="marquee" android:id="@id/ad_title" android:tag="ad_title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-regular" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff7a90b3" android:id="@id/ad_desc" android:tag="ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:fontFamily="sans-serif-light" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ad_action" android:tag="ad_action" android:background="@drawable/select_text_ad" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginTop="10.0dip" android:text="@string/android_sdk_download" />
+    </LinearLayout>
+</LinearLayout>

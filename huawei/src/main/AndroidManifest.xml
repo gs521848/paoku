@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.igame.xmcx.lxsw.huawei">
+
+    <application
+        android:extractNativeLibs="true"
+        android:isGame="true">
+    <activity
+        android:name="com.unity3d.player.BaseGameAcitivty"
+        android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+        android:exported="true"
+        android:hardwareAccelerated="false"
+        android:launchMode="singleTask"
+        android:resizeableActivity="false"
+        android:screenOrientation="landscape"
+        android:theme="@style/UnityThemeSelector">
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.MAIN" />-->
+        <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+        <!--            </intent-filter>-->
+
+        <meta-data
+            android:name="unityplayer.UnityActivity"
+            android:value="true" />
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+    </activity>
+    <activity
+        android:name="com.unity3d.player.privacyview.MainActivity"
+        android:exported="true"
+        android:screenOrientation="landscape">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="um.64d6f0e5894c2c300b79deb0" />
+        </intent-filter>
+
+
+    </activity>
+
+    <activity
+        android:name="com.unity3d.player.privacyview.PrivacyPolicyActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"></activity>
+    <activity
+        android:name="com.unity3d.player.privacyview.TermsActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"></activity>
+    <activity
+        android:name="com.unity3d.player.SplashActivity"
+        android:exported="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+        <!--            android:screenOrientation="landscape">-->
+    </activity>
+
+    </application>
+
+    <uses-feature android:glEsVersion="0x00030000" />
+    <uses-feature
+        android:name="android.hardware.vulkan.version"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false" />
+    <!--TODO-->
+    <!--&lt;!&ndash;    <uses-sdk android:minSdkVersion="8"></uses-sdk>&ndash;&gt;-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

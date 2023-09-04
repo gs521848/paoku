@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/adLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/adBarCodeContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/activead" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/adBarCodeContainer" />
+    <FrameLayout android:id="@id/adLabelContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/activead" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/adLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad_label" android:contentDescription="" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#c4000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="305.0dip" android:layout_height="495.0dip" android:layout_centerInParent="true">
+        <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:tag="pager" android:layout_width="280.0dip" android:layout_height="470.0dip" />
+        <ImageView android:layout_gravity="center|left|top" android:id="@id/adLabel" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ad_label_bottom" android:contentDescription="" />
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/android_sdk_dialog_frame" />
+        <ImageView android:layout_gravity="center|right|top" android:tag="closebtn" android:background="@drawable/android_sdk_btn_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:contentDescription="@null" />
+    </FrameLayout>
+    <com.ivy.ads.ui.PagerIndicator android:tag="indicator" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

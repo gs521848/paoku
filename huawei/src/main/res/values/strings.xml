@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">恐怖惊悚逃生</string>
+  <string name="game_view_content_description">Game view</string>
+
+  <string name="privacy_exit">拒绝</string>
+  <string name="privacy_agree">同意</string>
+  <string name="users_note">用户须知</string>
+  <string name="exitnotification">退出通知</string>
+  <!--  <string name="privacy_tips_key1">《用户协议》</string>-->
+  <string name="privacy_tips_key2">《隐私政策》</string>
+  <string name="privacy_tips">为了保护您的隐私和使用安全，请您务必仔细阅读我们的《隐私政策》。在确认充分理解并同意后再开始使用此应用。感谢！</string>
+  <string name="privacy">为了保护未成年人的身心健康，请您在游戏退出后进行实名认证，成功后重新进入游戏。感谢!</string>
+  <string name="confirmed">隐私政策已确认过</string>
+  <!--  <string name="opt_terms">用户协议</string>-->
+  <string name="opt_privacy">隐私政策</string>
+
+  <string name="media_name">HUAWEI Ads</string>
+  <string name="ad_id_splash">f86d1p7ueu</string>
+  <string name="ad_id_splash_landscape">f86d1p7ueu</string>
+  <string name="owner">HUAWEI Developer</string>
+  <string name="copyright_info">Copyright 2020. Huawei Technologies Co., Ltd</string>
+  <string name="status_ad_dismissed">Splash Ad is dismissed.</string>
+
+  <!-- native ad -->
+  <string name="ad_id_native">testu7m3hc4gvm</string>
+  <string name="ad_id_native_small">testb65czjivt9</string>
+  <string name="ad_id_native_three">testr6w14o0hqz</string>
+  <string name="ad_id_native_video">testy63txaom86</string>
+  <string name="ad_flag">Ad</string>
+  <string name="display_form">Display form:</string>
+  <string name="large_image_with_text">Large image with text.</string>
+  <string name="three_small_images_with_text">Three images with text.</string>
+  <string name="small_image_with_text">Small image with text.</string>
+  <string name="video_with_text">Video with text.</string>
+  <string name="ad_with_app_download_button">Ad with app download button.</string>
+  <string name="status_ad_loading">Ad loading state: being loaded.</string>
+  <string name="status_load_ad_success">Ad loading state: loaded successfully.</string>
+  <string name="status_load_ad_finish">Ad loading state: loaded finish.</string>
+  <string name="status_load_ad_fail">Ad loading state: failed to be loaded. Error code: </string>
+  <string name="status_play_start">Video playback state: starting to be played.</string>
+  <string name="status_playing">Video playback state: being played.</string>
+  <string name="status_play_end">Video playback state: playback completed.</string>
+  <string name="ad_is_closed">Ad is closed.</string>
+  <string name="load_button_text">Load Ad</string>
+
+
+  <!-- Banner ad -->
+  <string name="banner_ad_id">testw6vs28auh3</string>
+  <string name="size_320_50">SIZE_320*50</string>
+  <string name="size_320_100">SIZE_320*100</string>
+  <string name="size_smart">SIZE_SMART</string>
+  <string name="size_300_250">SIZE_300*250</string>
+  <string name="size_360_57">SIZE_360*57</string>
+  <string name="size_360_144">SIZE_360*144</string>
+  <string name="color_black">Black</string>
+  <string name="color_white">White</string>
+  <string name="color_red">Red</string>
+  <string name="color_transparent">Transparent</string>
+  <string name="banner_size_label">Size:</string>
+  <string name="banner_color_label">Color:</string>
+
+</resources>
